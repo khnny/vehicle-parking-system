@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking system| Log in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+<body>
+    <div>
+        <div class="container" id="logInBox" >
+            <form>
+                <div class="form-title">
+                    <h2>PARKING MANAGEMENT</h2>
+                    <h2>LOG IN</h2>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="admin/staff">
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password"  placeholder="password">
+                </div>
+                <div>
+                    <input type="submit" class="btn" value="Sign In" name="signIn" id="signInbutton">
+                </div>
+           </form>
+        </div>
+        <div class="container" id="typeMngt" >
+            <form>
+                <div class="form-title">
+                    <h1>COSTUMER TYPE</h1>
+                </div>
+                <div class="input-group">
+                    <input type="submit" class="btn" value="Guest" name="guest">
+                </div>
+                <div class="input-group">
+                    <input type="submit" class="btn" value="Vip/member" name="vip">
+                </div>
+            </form>
+        </div>
+        <script src="loginScript.js"></script>
+
+    </div>
+</body>
+</html>
